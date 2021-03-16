@@ -21,7 +21,7 @@
 # print("共有",studenT)
 
 
-data=[100,1,3,70,60]
+# data=[100,1,3,70,60]
 # data.sort(reverse=True)
 # print(data)
 # data.sort()
@@ -31,7 +31,58 @@ data=[100,1,3,70,60]
 # n=sorted(data,reverse=True)
 # print(n)
 
-del data[0]
-print(data)
-del data[1:6:2]
-print(data)
+# del data[0]
+# print(data)
+# del data[1:6:2]
+# print(data)
+
+#二維陣列
+data=[[1,2,3],[10,"a"],["a","b","c"]]
+# print(data[1][0])
+# for i in data:
+#     for j in i:
+#         print(j)
+
+
+# tuple 只能讀不能改
+# data=(10,"a",100,90)
+# print(type(data))
+# print(data[1])
+ #data[0]=99 #錯誤的 
+
+# newlisT=list(data)
+# newlisT[0]=100
+# print(newlisT)
+# olddata=tuple(newlisT)
+# print(olddata)
+
+nuM=1,2,3,4
+print(nuM)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
